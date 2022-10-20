@@ -1,5 +1,5 @@
 # Instant-sealing Bug Reproduce
-This is a demo of how `--instant-sealing` local node is sometimes buggy with polkadot.js api.
+This is a demo of how `--instant-sealing` local node is sometimes buggy with `polkadot.js` api, that both `isFinalized` and `isInBlock` are not triggered after the tx is mined.
 
 ## Run
 ### run a local instant sealing mandala node
